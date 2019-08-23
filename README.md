@@ -251,3 +251,51 @@ f(n) = f(n – 1) + f(n – 2)
 * Phân tích:
 
 – Dùng lệnh if để chia các mức giá khác nhau.
+
+# Câu 23: Giải hệ phương trình bậc nhất
+
+* Yêu cầu: Viết chương trình giải hệ phương trình bậc nhất:
+
+– ax + by = c
+
+– dx + ey = f
+
+* Phân tích:
+
+– Nghiệm của hệ: x = Dx/D, y = Dy/D ( trong đó: D = ae – bd, Dx = ce – bf, Dy = af – cd)
+
+# Câu 24: In ra bảng cửu chương
+
+* Yêu cầu:
+
+Viết chương trình in ra bảng cửu chương từ 2 đến 9
+
+* Phân tích:
+
+– Dùng vòng lặp for()
+
+# Câu 25: Tính sinx
+
+* Yêu cầu: Lập chương trình tính sin(x) với độ chính xác 0.0001 theo công thức:
+
+sin(x) = x – x^3/3! + x^5/5! – …+(-1)^n.x^(2n+1)/(2n+1)!
+
+# Câu 26: Tính cosx
+
+* Yêu cầu: Nhập một số c>0 (ví dụ c = 0.0001) và một số thực x rồi tính: 
+
+cos(x)= 1 – x^2/2! + x^4/4! – …+(-1)^n.x^(2n)/(2n)!
+
+Tổng được tính với n đủ lớn sao cho bất đẳng thức: |x^(2n)/(2n)!| <= c thỏa mãn
+
+# Câu 27: Tính e mũ x
+
+* Yêu cầu: Nhập 1 số c > 0 (sai số) và 1 số thực x rồi tính : 
+
+e^x = 1 + x/1! + x^2/2! + …+x^n/n!
+
+Tổng được tính với n đủ lớn sao cho |x^n/n!| < c thỏa mãn.
+
+* Phân tích:
+
+– Tương tự như tính sinx, cosx, chúng ta sử dụng vòng lặp for() để giải quyết bài toán này.
