@@ -154,3 +154,100 @@ Ví dụ: 153 = 1^3 + 5^3 + 3^3. Hãy tìm các số Amstrong nhỏ hơn 1000.
 
 – Dùng vòng lặp để kiểm tra điều kiện của sô Amstrong.
 
+# Câu 15: Tính giai thừa số nguyên dương
+
+* Yêu cầu: Tính giai thừa của số nguyên dương N.
+
+* Phân tích: 
+
+– Dùng đệ quy
+
+# Câu 16: Tính giai thừa cách
+
+* Yêu cầu: Viết chương trình tính n!!. Biết rằng n!! = 1.3.5..n nếu n lẻ, và n!! = 2.4.6…n nếu chẵn.
+
+* Phân tích: 
+
+– Dùng đệ quy
+
+# Câu 17: Tính diện tích, chu vi tam giác, đường tròn, hcn
+
+* Yêu cầu: Tính diện tích và chu vi các hình: tam giác, chữ nhật, tròn.
+
+* Phân tích:
+
+- Diện tích tam giác: S = căn bậc 2[P*(P/2 - a)*(P/2 - b)*(P/2 - c)/2]    (a, b, c là các cạnh, P: chu vi tam giác)
+
+- Chu vi tam giác: P = a + b + c
+
+- Diện tích hình tròn: S = 2*PI*R*R    (R: bán kính, PI = 3.14)
+
+- Chu vi hình tròn: P = 2*PI*R
+
+- Diện tích chữ nhật: S = a * b (a, b: là 2 cạnh của hình chữ nhật)
+
+- Chu vi chữ nhật: P = (a + b)*2
+
+# Câu 18: Kiểm tra số N có phải là số nguyên tố không?
+
+* Yêu cầu: Viết chương trình kiểm tra xem số N có phải là số nguyên tố không?
+
+* Phân tích: 
+
+– Số nguyên tố là số chỉ chia hết cho chính nó và 1.
+
+Ví dụ: 1, 3, 5, 7, 11, 13,… là số nguyên tố
+
+– Nếu (N%i == 0) với mọi i = ( 2 – N/2) thì N là số nguyên tố.
+
+# Câu 19: Liệt kê các số nguyên tố nhỏ hơn N
+
+* Yêu cầu: Viết chương trình liệt kê tất cả các số nguyên tố nhỏ hơn giá trị N nhập từ bàn phím.
+
+* Thuật toán:
+
+– Viết hàm kiểm tra số nguyên tố
+
+– Dùng vòng lặp để in ra các số nguyên tố
+
+# Câu 20: Tìm số hoàn hảo
+
+* Yêu cầu: Một số hoàn hảo là một số có tổng các ước số của nó bằng chính số đó. Hãy tìm số hoàn hảo nhỏ hơn 5000. 
+
+Ví dụ: 6 có các ước số là 1, 2, 3 và 6 = 1 + 2 + 3.
+
+* Phân tích:
+
+– Tìm các ước số của số đó. Sau đó tính tổng các ước số.
+
+– So sánh tổng các ước số với số đó. In kết quả ra màn hình.
+
+# Câu 21: In dãy số Fibonanci
+
+* Yêu cầu: Viết chương trình in dãy số Fibonanci nhỏ hơn giá trị N. Biết rằng:
+
+f(0) = f(1) = 1
+
+f(n) = f(n – 1) + f(n – 2)
+
+* Phân tích:
+
+– Cách 1: dùng đệ quy
+
+– Cách 2: dùng công thức f(n) = f(n – 1) + f(n – 2)
+
+# Câu 22: Tính cước taxi
+
+* Yêu cầu: Viết chương trình tính tiền cước TAXI. Biết rằng:
+
+– Km đầu tiên là 5000đ
+
+– 30Km tiếp theo là 4000đ
+
+– Nếu lớn hơn 30Km thì mỗi Km thêm ra sẽ phải trả là 3000đ
+
+– Hãy nhập số Km sau đó in ra số tiền phải trả.
+
+* Phân tích:
+
+– Dùng lệnh if để chia các mức giá khác nhau.
