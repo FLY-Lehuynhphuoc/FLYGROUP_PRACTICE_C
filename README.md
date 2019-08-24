@@ -299,3 +299,198 @@ Tổng được tính với n đủ lớn sao cho |x^n/n!| < c thỏa mãn
 * Phân tích:
 
 – Tương tự như tính sinx, cosx, chúng ta sử dụng vòng lặp for() để giải quyết bài toán này.
+
+# Câu 28: Tính hằng số PI = 3.14
+
+* Yêu cầu: Tính PI với sai số 0.0001 theo công thức: PI/4 = 1 – 1/3 + 1/5 – 1/7 +…
+
+* Phân tích:
+
+– Dùng vòng lặp for().
+
+– PI/4 = ∑(1 + ((-1)n/(2n+1)))
+
+# Câu 29: Hiển thị tam giác pascal
+
+* Yêu cầu: Viết chương trình in ra tam giác Pascal:
+
+1
+1 1
+1 2 1
+1 3 3 1
+…..
+
+* Phân tích: Chúng ta nhận thấy quy luật như sau:
+
+Hàng 1: 1 số
+
+Hàng 2: 2 số
+
+…
+
+Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở giữa bằng tổng 2 số hạng hàng trên cộng lại.
+
+– Hàng 3: 2 = 1 + 1
+
+– Hàng 4: 3 = 1 + 2, 3 = 2 + 1.
+
+…
+
+# Câu 30: Hiển thị hình sao
+
+* Yêu cầu: Dùng vòng lặp for, in ra màn hình các hinh vẽ sau:
+
+1
+
+*
+**
+***
+****
+*****
+
+2
+
+*****
+****
+***
+**
+*
+
+3
+
+*********
+*********
+*********
+*********
+*********
+
+4
+
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+
+5
+
+    *
+   **
+  ***
+ ****
+*****
+
+6
+
+      *
+     ***
+    *****
+   *******
+  *********
+   *******
+    *****
+     ***
+      *
+      
+# Câu 31: Chuyển đổi từ số la mã sang số thập phân
+
+Bảng số la mã và một số quy tắc chuyển đổi.
+
+1. Bảng số la mã
+
+I   V   X   L   C   D   M
+
+1   5   10  50  100 500 1000
+
+2. Quy tắc chuyển đổi
+
+a/ Số thập phân được cấu thành từ các chữ số đơn lẻ. Ví dụ: 1989 được ghép bởi 1,9,0,8. Còn đối với cách biểu diễn chữ số la mã thì mỗi chữ số khác 0 ở mỗi hàng ( hàng đơn vị, hàng chục, hàng trăm,…) sẽ được biểu diễn bởi 1 kí tự số la mã. 1000 = M, 900 = CM, 0 không được biểu diễn, 8 = VIII. 1908 = MCMVIII
+
+b/ “I”, “X”, “C”, “M” có thể được xuất hiện liên tiếp (cạnh nhau) tối đa 3 lần. Tuy nhiên, các kí tự này có thể xuất hiện nhiều hơn. (Ví dụ: XXXIX). Các kí tự “D”, “L”, “V” không được phép lặp lại.
+
+c/ Chữ số đi sau chữ số khác lớn hơn hoặc bằng thì cộng thêm vào:
+
+VI = V + I = 5 + 1 = 6
+
+LX = L + X = 50 + 10 = 60
+
+XX = X + X = 10 + 10 = 20
+
+Chữ số đi trước chữ số khác lớn hơn thì trừ bớt đi:
+
+IV = V – I = 5 – 1
+
+XL = L – X = 50 – 10 = 40
+
+“I” chỉ có thể bị trừ bởi “V”, “X”. ( IV = V – I = 5 – 1 = 4, IX = X – I = 10 – 1 = 9)
+
+“X” chỉ có thể bị trừ bởi “C”, “L”. ( XC = 100 – 10 = 90, XL = 50 – 10 = 40)
+
+“C” chỉ có thể bị trừ bởi “D” và “M”. (CD = 500 – 100 = 400, CM = 1000)
+
+“V”, “L”, “D” không bao giờ bị trừ.
+
+d/ Nếu thêm 1 dấu gạch ngang trên đầu thì giá trị của nó bằng giá trị hiện tại nhân với 1000
+
+# Câu 32: Hàm swap
+
+* Yêu cầu:
+
+– Khai báo 2 biến được gán giá trị ban đầu.
+
+– Viết hàm đổi chỗ giá trị của 2 biến cho nhau
+
+* Phân tích:
+
+– Ta viết hàm với tham số truyền vào là 2 biến được khai báo. Như các bạn đã biết, nếu truyền tham trị, sẽ không thể thay đổi giá trị của chúng được. Muốn thay đổi được giá trị của 2 biến truyền vào, chúng ta cần truyền tham biến (con trỏ + tham chiếu).
+
+# Câu 33: Tính tổng các chữ số trong 1 số
+
+* Yêu cầu:
+
+Tính tổng các chữ số trong 1 số.
+
+Ví dụ: số 1234 có tổng S = 1 + 2 + 3 + 4 = 10
+
+* Phân tích:
+
+– Dùng phép chia hết / và phép chia có dư % để tách từng chữ số từ hàng đơn vị, hàng chục, …
+
+# Câu 34: Đổi từ hệ nhị phân sang hệ thập phân
+
+* Yêu cầu: Chuyển từ số nhị phân sang thập phân.
+
+# Câu 35: Đổi từ hệ thập phân sang nhị phân
+
+* Yêu cầu: Chuyển từ số nhị phân sang thập phân.
+
+# Câu 36: Kiểm tra năm nhuận
+
+* Yêu cầu: Viết hàm kiểm tra năm nhuận.
+
+* Phân tích: Năm nhuận là năm chia hết cho 400 hoặc chia hết cho 4 nhưng không chia hết cho 100.
+
+# Câu 37: Kiểm tra số đối xứng hay không?
+
+* Yêu cầu: Số đối xứng hay còn gọi là “palindrome”. Ví dụ: 
+
+123321 là số đối xứng, 12012 không phải số đối xứng.
+
+* Phân tích: Đảo các chữ số của số đầu vào. Nếu giá trị của số trước và sau khi đảo bằng nhau thì đó là số đối xứng.
+
+# Câu 37: Đảo ngược các chữ số trong 1 số
+
+* Yêu cầu:
+
+– Nhập vào 1 số nguyên
+
+– Đảo ngược các chữ số trong số nguyên đó.
+
+* Phân tích:
+
+– Dùng phép chia hết / và phép chia có dư % để tách từng chữ số ra.
