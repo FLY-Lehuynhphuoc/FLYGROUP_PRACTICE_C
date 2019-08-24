@@ -315,9 +315,13 @@ Tổng được tính với n đủ lớn sao cho |x^n/n!| < c thỏa mãn
 * Yêu cầu: Viết chương trình in ra tam giác Pascal:
 
 1
+
 1 1
+
 1 2 1
+
 1 3 3 1
+
 …..
 
 * Phân tích: Chúng ta nhận thấy quy luật như sau:
@@ -340,7 +344,7 @@ Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở
 
 * Yêu cầu: Dùng vòng lặp for, in ra màn hình các hinh vẽ sau:
 
-# 1
+1
 
 # *
 
@@ -352,7 +356,7 @@ Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở
 
 # *****
 
-# 2
+2
 
 # *****
 
@@ -364,7 +368,7 @@ Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở
 
 # *
 
-# 3
+3
 
 # *********
 
@@ -376,7 +380,7 @@ Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở
 
 # *********
 
-# 4
+4
 
 # *
 
@@ -398,7 +402,7 @@ Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở
 
 # *
 
-# 5
+5
 
 #     *
     
@@ -410,7 +414,7 @@ Số hạng đầu và cuối của mỗi hàng đều bằng 1. Số hạng ở
  
 # *****
 
-# 6
+6
 
 #      *
       
